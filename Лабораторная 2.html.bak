@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Моя персональная страница</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Заголовок моей страницы</h2>
+  <p>Катали ваше солнышко, шкалик, да хлеба корочка</p>
+  <p>Пела песню соечка, клевала с подоконничка.</p>
+  <p>Лунный мотылек, ты лети на костерок.</p>
+  <p>Там где лысый бережок сыпет пьяненький дъячек.</p>
+  <figure class="caption-border">
+    <img src="CM.jpg">
+    <figcaption>Церквушка и закат</figcaption>
+</figure>
+</div>
+  <a href="https://html5book.ru/">Гайд №1</a>
+  <a href="https://webref.ru/practice">Гайд №2</a>
+</body>
+</html> 

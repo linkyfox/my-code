@@ -1,0 +1,65 @@
+
+* {box-sizing: border-box;}
+body {font-family: 'Playfair Display', serif; margin: 0;text-align: center}
+h2 {font-weight: normal;color: #6A5953}
+p {font-size: 0.9em;display:inline-block;line-height:1.1;}
+.backblock {
+  display: inline-block;
+  margin: 0 40px 2em 0;
+  background: rgba(228, 225, 228, .5);
+}
+div {
+  width: 170px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.mainblock1 {
+  background: rgba(135, 86, 120, .4);
+}
+.mainblock1:hover {
+  -o-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.mainblock2{
+  background: rgba(0, 228, 246, .4);
+}
+.mainblock2:hover {
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);  
+  transform: translateY(-20px);
+.spinner {
+  color: rgba(135, 86, 120, .4);
+  display: flex;
+  align-items: 300;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.spinner:after {
+  animation: changeContent .8s linear infinite;
+  display: block;
+  content: "⠋";
+  font-size: 80px;
+}
+
+@keyframes changeContent {
+  10% { content: "⠙"; }
+  20% { content: "⠹"; }
+  30% { content: "⠸"; }
+  40% { content: "⠼"; }
+  50% { content: "⠴"; }
+  60% { content: "⠦"; }
+  70% { content: "⠧"; }
+  80% { content: "⠇"; }
+  90% { content: "⠏"; }
+}

@@ -1,0 +1,82 @@
+p {
+font-size: 1.1em; display:inline-block;
+line-height:1.1;
+ text-align: center
+}
+div {
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+ .block1 {
+  margin: 10px 20px 100px 0;
+	display:inline-block;
+    width: 170px;
+	height: 100px;
+    background: rgba(228, 225, 228, .5);
+
+}
+ .block1:hover {
+  -o-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -webkit-transform: translateY(20px);  
+  transform: translateY(20px);
+}
+ .block2 {
+  display:inline-block;	   
+  width: 170px;
+  height: 100px;
+  background: rgba(255, 153, 0, .4);
+  margin: 10px 20px 100px 0;
+}
+
+.block2:hover {
+  box-shadow: inset 0 0 0 10px #53ea93;
+}
+ .block3 {
+  display:inline-block;	   
+  width: 170px;
+  height: 100px;
+  background: rgba(255, 153, 0, .4);
+  animation-name: grow-shrink;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes grow-shrink {
+  40% { transform: scale(1); }
+  80% { transform: scale(1.5); }
+}
+.box {
+  background-color: rebeccapurple;
+  margin: 10px 20px 100px 0;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.textflow {
+    overflow: hidden; /* Скрываем строку за её пределами */
+    white-space: nowrap; /* Запрещаем переносы слов */
+    animation: marquee 30s linear infinite;
+   }
+   .textflow:hover {
+    animation-play-state: paused; /* Пауза */
+   }
+   @keyframes marquee {
+    from { text-indent: 100%; }
+    to { text-indent: -100%; }
+   }

@@ -1,0 +1,17 @@
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Анимации</title>
+<link rel="stylesheet" href="style1_2.css">
+</head>
+<body>
+  <h2>Анимации</h2>
+  <div class="block1"><p>translate</p></div>
+  <div class="block2"><p>translate</p></div>
+  <div class="block3"><p>grow</p></div>
+  <div class="box"></div>
+  <div class="textflow">Современная ситуация решительно заполняет 
+  трагический дедуктивный метод, ломая рамки 
+  привычных представлений.</div>
+</body>
+</html> 

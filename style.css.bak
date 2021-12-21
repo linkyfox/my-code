@@ -1,0 +1,46 @@
+p { 
+	font-size: 12px; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: green;
+   } 
+   @import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+h2 {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: blue;
+}
+a  {
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: red;
+}
+ a:visited {
+    color: #800080; 
+   } 
+   a:hover {
+    color: #800000; 
+    text-decoration: underline; 
+}
+* {box-sizing: border-box;}
+.caption-border {
+  width: 600px;
+  margin: 50px auto 0;
+  border: 5px solid blue;
+  background: white;
+  padding: 10px;
+}
+.caption-border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.caption-border figcaption {
+  padding: 10px;
+  color: white;
+  background: blue;
+  text-align: center;
+  text-transform: uppercase;
+}
+body {background-image: url(https://phonoteka.org/uploads/posts/2021-04/1618512616_48-phonoteka_org-p-statichnii-fon-50.jpg);
+background-attachment: scroll;
+}
